@@ -10,7 +10,7 @@ This repo contains a desktop application for Windows developed in C++ using WinA
 Testing is performed by writing and reading three files of different sizes: 25, 250 and 2500 MB for testing sequential access operations and 250, 2500, 25000 KB for testing random access operations. If you want to test your flash memory drive with this benchmark, you should format the flash drive before doing so. When comparing flash drives using this benchmark, you should use the same cluster size and file system.  
 If you want to understand the algorithm of the application and the device of its functionality, you can read [this document](flash_drive_benchmark_guide_RUS.pdf) (in Russian only).
   
-**App Language:** Russian.  
+**App Language:** Russian  
 **Programming Language:** C++  
  **API:** WinAPI  
  **Author:** Mikhail Bahamolau  
