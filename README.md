@@ -3,7 +3,7 @@
 
 ## Description
 
-This repo contains a desktop application for Windows developed in C++ using WinAPI. The application allows you to test the read speed and write speed of a flash memory drive. Read and write operations can be performed using sequential and random methods. In real use cases, the read and write speeds of large amounts of data will be closer to the results of random operation tests. The difference between sequential and random operation principles is shown in the picture below.  
+This repo contains a desktop application for Windows developed in C++ using WinAPI. The application allows you to test the read speed and write speed of a flash memory drive. Read and write operations can be performed using sequential and random methods. In real use cases, the read and write speeds of large amounts of data will be closer to the results of random operation tests. The difference between sequential and random operation principles is shown in the picture below. Testing is performed by writing and reading three files of different sizes: 25, 250 and 2500 MB for testing sequential access operations and 250, 2500, 25000 KB for testing random access operations. If you want to test your flash memory drive with this benchmark, you should format the flash drive before doing so. When comparing flash drives using this benchmark, you should use the same cluster size and file system.
   
 ![picture1](https://i.imgur.com/qUpCAZW.png)  
   
